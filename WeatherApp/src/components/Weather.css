@@ -1,0 +1,90 @@
+body {
+  /* Your CSS properties here */
+  font-family: Arial, sans-serif; /* Example: Change font family */
+  background-color: #f0f0f0; /* Example: Change background color */
+  color: #333; /* Example: Change text color */
+  margin: 0; /* Example: Remove default margin */
+  padding: 0; /* Example: Remove default padding */
+  /* Add more properties as needed */
+}
+.container {
+  width: 50%; 
+  /* max-height: 90vh; */
+  margin: auto;
+  margin-top: 3%;  
+  border-radius: 12px;
+  background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+}
+
+.top-bar {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  padding-top: 60px;
+}
+.top-bar input {
+  display: flex;
+  width: 362px;
+  height: 78px;
+  background: #ebfffc;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding-left: 40px;
+  color: #626262;
+  font-size: 20px;
+  font-weight: 400;
+}
+.top-bar .search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 78px;
+  height: 78px;
+  background: #ebfffc;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.weather-image {
+  margin-top: 29px;
+  max-height: 20vh;
+  display: flex;
+  justify-content: center;
+}
+.weather-temp {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 120px;
+  font-weight: 400;
+}
+.weather-location {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+}
+.data-container {
+  margin-top: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.element {
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.data {
+  font-size: 34px;
+  font-weight: 400;
+}
+.text {
+  font-size: 20px;
+  font-weight: 400;
+}
+.icon {
+  margin-top: 10px;
+}
