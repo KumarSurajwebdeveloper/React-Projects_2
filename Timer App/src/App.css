@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.main-container {
+  margin: auto;
+  margin-top: 10%;
+  /* border: 2px solid red; */
+  width: 60%;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 22vb;
+  font-weight: 900;
+}
+.btn-class {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 5%;
+  gap: 2vb;
+}
+button {
+  color: whitesmoke;
+  padding: 3px;
+  width: 10%;
+  background-color: rgb(139, 47, 37);
+  border: none;
+  outline: none;
+}
+button:hover {
+  transition: ease 0.2s;
+  background-color: salmon;
+  padding: 3px;
+  cursor: pointer;
+}

@@ -1,0 +1,98 @@
+/* Todo.css */
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #68678f;
+}
+
+/* Container styles */
+.todo-container {
+  max-width: 60%;
+  margin: 25px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #b5c6d9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.todo-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  background-color: #cccccc00;
+  color: #e83c5f;
+}
+
+/* Input and button styles */
+.todo-input {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  color: seagreen;
+  background-color: black;
+}
+
+.addbutton {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.addbutton:hover {
+  background-color: #0056b3;
+}
+
+/* Task list styles */
+.task-list {
+  list-style-type: none;
+  padding: 0;
+  width: 85%;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: whitesmoke;
+}
+
+.task-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task-item span {
+  flex-grow: 1;
+  font-size: 16px;
+  background-color: aquamarine;
+}
+
+.task-item button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.task-item button:hover {
+  background-color: #c82333;
+}

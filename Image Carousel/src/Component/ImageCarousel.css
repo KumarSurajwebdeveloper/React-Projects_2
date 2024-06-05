@@ -1,0 +1,85 @@
+.image-carousel {
+  /* height: 25vmax; */
+  width: 54vmax;
+  margin: 5vh auto;
+  text-align: center;
+}
+
+/* .carousel-image {
+
+} */
+
+.navigation-buttons {
+  margin-bottom: 16px;
+  background-color: none;
+}
+
+.btnleft {
+  background-color: salmon;
+  padding: 4px;
+  outline: none;
+  text-align: center;
+  border: none;
+  margin-right: 5px;
+  color: white;
+  width: 10%;
+}
+
+.btnright {
+  background-color: salmon;
+  padding: 4px;
+  outline: none;
+  text-align: center;
+  border: none;
+  margin-left: 5px;
+  color: white;
+  width: 10%;
+}
+
+.btnright:hover {
+  transition: 0.2s ease;
+  cursor: pointer;
+  background-color: rgb(194, 57, 42);
+}
+.btnleft:hover {
+  transition: 0.2s ease;
+  cursor: pointer;
+  background-color: rgb(194, 57, 42);
+}
+
+.thumbnail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnail {
+  /* width: 10; */
+  height: 10vh;
+  min-width: 10vmin;
+  margin-right: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+
+.thumbnail.active {
+  border: 2px solid #007bff;
+}
+
+@media (max-width: 768px) {
+  .thumbnail-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Hide scrollbar for Chrome, Safari, and newer versions of Edge */
+    -ms-overflow-style: none; /* Hide scrollbar for IE and old Edge */
+  }
+
+  .thumbnail-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and newer versions of Edge */
+  }
+}

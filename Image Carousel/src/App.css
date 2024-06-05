@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #10380791;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2vh;
+}
+.input{
+    width: 18%;
+    color: crimson;
+    outline: none;
+    background-color: black;
+}
+.searchbtn {
+  background-color: salmon;
+  padding: 4px;
+  outline: none;
+  text-align: center;
+  border: none;
+  margin-left: 5px;
+  color: white;
+  width: 5%;
+}
+.searchbtn:hover {
+  transition: 0.2s ease;
+  cursor: pointer;
+  background-color: rgb(194, 57, 42);
+}

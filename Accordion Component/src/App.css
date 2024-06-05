@@ -1,0 +1,24 @@
+@import url(https://db.onlinewebfonts.com/c/5ebc67ab9ab9e86517c65dd6ac7c85aa?family=Dauphin);
+
+h1 {
+  font-family: Dauphin;
+  text-align: center;
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: lighter;
+}
+/* h3 style={{ textAlign: 'center', fontWeight: 'lighter', fontStyle: 'italic' }} */
+h3 {
+  font-family: Dauphin;
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+}
+/* style={{ textAlign: 'center', fontWeight: 'lighter' }} */
+h5 {
+  font-family: Open Sans, Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 12px;
+  line-height: 14px;
+}

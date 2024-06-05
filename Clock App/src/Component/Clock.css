@@ -1,0 +1,27 @@
+.clock-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.clock-title {
+  font-size: 10vb;
+  margin-bottom: 10px;
+}
+
+.clock-time {
+  font-size: 15vb;
+  color: salmon;
+}
+button {
+  padding: 5px;
+  width: 15%;
+  background-color: rgb(90, 93, 101);
+  outline: none;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+  transition: ease 0.2s;
+  background-color: blue;
+}

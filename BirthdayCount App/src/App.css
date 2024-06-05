@@ -1,0 +1,45 @@
+* {
+  margin: 5vh auto;
+  padding: 0;
+  color: white;
+  background-color: black;
+}
+h1 {
+  margin: 5vh;
+  text-align: center;
+  font-size: 10vb;
+}
+.frm {
+  display: flex;
+  justify-content: center;
+}
+input {
+  border: red;
+  width: 13.2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  width: 35vb;
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+}
+button {
+  margin-left: 2vb;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  /* height: 2rem; */
+  font-size: 1.3rem;
+  color: whitesmoke;
+  width: 35vb;
+}
+button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:active {
+    background-color: #0056b3;
+    transform: translateY(1px);
+  }

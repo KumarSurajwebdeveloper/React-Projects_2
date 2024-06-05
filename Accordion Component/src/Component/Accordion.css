@@ -1,0 +1,41 @@
+.accordion {
+  width: 100%;
+}
+
+.accordion-section {
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion-title {
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+  background-color: #f5f5f5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-title:hover {
+  background-color: #e0e0e0;
+}
+
+.accordion-title.active {
+  background-color: #ddd;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.accordion-content.open {
+  max-height: 200px; /* Set a suitable value for maximum expanded height */
+}
+.arrow-icon {
+  margin-left: 5px;
+  margin-top: 10px;
+  height: 8px;
+}
